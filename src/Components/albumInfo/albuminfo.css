@@ -1,0 +1,35 @@
+.albumInfo-card{
+    margin-top: 20px;
+    width: 80%;
+    position: relative;
+}
+.albumName-container{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f2f4f5;
+    overflow: hidden;
+}
+
+.albumInfo-card p{margin: 0px;}
+.marquee{
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 8s linear infinite;
+  padding-left: 100%;
+}
+@keyframes marquee {
+    0%{
+        transform: translateX(0);
+    }
+       100%{
+        transform: translateX(-100%);
+    }
+
+}
+.album-info{
+    margin-top:20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.album-release{font-size: 12px;
+margin-top: 10px;}

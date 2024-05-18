@@ -1,0 +1,26 @@
+.queue-container{width: 100%;
+background-color: rgb(48, 64, 102, 0.5);
+height: 32%;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border-radius: 30px;
+}
+.queue{
+    height: 85%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+}
+.upnext{
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    margin: 10px 0;
+    color:#fff;
+}
+.queue-list{height: 80%;overflow-y: auto;scrollbar-width:none}
+.queue-item{width: 100%; padding:5px 0; justify-content: space-between; font-size:14px; font-weight: 500; cursor: pointer;
+color: #fff; transition: all 0.2s;}
+.queue-item:hover{transform: scale(0.95);}
+.track-name{width: 75%; text-overflow: ellipsis; }

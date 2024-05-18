@@ -1,0 +1,11 @@
+.left-player-body{    position: relative;
+width: 68%;margin-right: 2%;}
+.right-player-body{
+    width: 30%;
+    color:aliceblue;
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

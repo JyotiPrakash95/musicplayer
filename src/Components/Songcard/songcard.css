@@ -1,0 +1,12 @@
+.songCard-container{
+    background-color: #0b1f32;
+    position: relative;
+    padding:20px;
+    height: 400px;
+    border-radius: 30px;   
+    height: 60%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+}
